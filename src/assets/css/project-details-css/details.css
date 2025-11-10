@@ -1,0 +1,146 @@
+.project-detail {
+  width: 100%;
+  background: #ffffff;
+  padding: 24px 0;
+}
+
+.project-detail-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  gap: 24px;
+}
+
+.left {
+  width: 640px;
+}
+
+.main-media {
+  margin: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #e9e9e9;
+}
+
+.main-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.miniaturas {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.miniatura {
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  padding: 0;
+  width: 110px;
+  height: 70px;
+  border-radius: 8px;
+}
+
+.miniatura img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.right {
+  flex: 1;
+  min-width: 0;
+}
+
+.head {
+  margin-bottom: 12px;
+}
+
+.title {
+  margin: 0 0 6px 0;
+  font-size: 32px;
+  color: #111;
+}
+
+.meta {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Stats */
+.stats {
+  margin: 16px 0 20px 0;
+  padding: 16px;
+  border: 1px solid #efefef;
+  border-radius: 10px;
+  background: #fafafa;
+}
+
+.progress-label {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.progress {
+  width: 100%;
+  height: 10px;
+  background: #eaeaea;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background: #f47f11;
+}
+
+.raised {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #444;
+}
+
+.btn-donate {
+  margin-top: 12px;
+  padding: 12px 14px;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #f47f11;
+  color: #fff;
+  cursor: pointer;
+}
+
+.section {
+  margin-top: 24px;
+}
+
+.subtitle {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  color: #222;
+}
+
+.bullets {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 15px;
+  color: #444;
+}
+
+.bullets li {
+  margin-bottom: 8px;
+}
+
+.story {
+  font-size: 15px;
+  line-height: 22px;
+  color: #444;
+  margin: 0;
+}
