@@ -1,0 +1,249 @@
+.section1-banner {
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+}
+
+.banner-home img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
+.banner-text {
+  margin-top: 12px;
+}
+
+.banner-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+/* SECCION CARDS */
+.section2-cards {
+  width: 100%;
+  padding: 16px 0;
+  background-color: #ffffff;
+  margin-top: 24px;
+}
+
+.cards-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.section-title {
+  font-size: 24px;
+  margin: 0 0 12px 0;
+  color: #111;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 12px 14px;
+}
+
+.card-title {
+  font-size: 18px;
+  margin: 0 0 6px 0;
+  color: #222;
+}
+
+.card-text {
+  font-size: 14px;
+  line-height: 20px;
+  color: #555;
+  margin: 0;
+}
+
+/*Aqui sera footer*/
+
+.footer {
+  background-color: #c1c0c0;
+  color: black;
+  padding: 20px 16px;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.footer-logo img {
+  width: 50px;
+  height: auto;
+  display: block;
+}
+
+.footer-logo h3 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.footer-links {
+  margin-top: 12px;
+}
+
+.footer-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links li {
+  margin: 4px 0;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+.footer-copy {
+  margin-top: 16px;
+}
+
+.footer-copy p {
+  font-size: 13px;
+  margin: 0;
+}
+
+@media (min-width: 760px) {
+  .section-title {
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+
+  .cards-list {
+    gap: 16px;
+  }
+
+  .card {
+    width: 220px;
+  }
+  .footer {
+    text-align: left;
+    padding: 24px 32px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-links ul {
+    display: flex;
+    gap: 24px;
+  }
+
+  .footer-links li {
+    margin: 0;
+  }
+
+  .footer-copy {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .section1-banner {
+    padding: 24px 32px;
+  }
+
+  .banner-home img {
+    max-width: 90%;
+  }
+
+  .banner-text p {
+    font-size: 17px;
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .cards-list {
+    gap: 24px;
+  }
+
+  .card {
+    width: 320px;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-text {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-links {
+    margin: 0;
+  }
+
+  .footer-copy {
+    margin-top: 0;
+    text-align: right;
+  }
+
+  .section1-banner {
+    padding: 40px 0;
+  }
+
+  .banner-home img {
+    max-width: 1160px;
+  }
+
+  .banner-text p {
+    font-size: 18px;
+    max-width: 850px;
+  }
+}
